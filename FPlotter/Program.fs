@@ -4,7 +4,7 @@ open PPlot
 
 let inline vector x y z = Vector.vector x y z
 
-let size = vector 1700 800 0
+let size = vector 1200 600 0
 
 let l1() =
    // main line
