@@ -10,7 +10,6 @@
     <Compile Include="PMath\Vector.fs" />
     <Compile Include="PMath\Math.fs" />
     <Compile Include="PPlot.fs" />
-    <None Include="expressions.fsx" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
