@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="geometry.fsx" />
+    <Compile Include="PMath\Vector.fs" />
+    <Compile Include="PMath\Math.fs" />
+    <Compile Include="PPlot.fs" />
+    <None Include="expressions.fsx" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="4.8.1" />
+    <PackageReference Include="MathNet.Numerics.FSharp" Version="4.8.1" />
+    <PackageReference Include="XPlot.GoogleCharts" Version="2.0.0" />
+    <PackageReference Include="XPlot.Plotly" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>

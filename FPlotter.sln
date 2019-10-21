@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FPlotter", "FPlotter\FPlotter.fsproj", "{460CE660-CECF-428F-AF1F-CCA5F50E04F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{460CE660-CECF-428F-AF1F-CCA5F50E04F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460CE660-CECF-428F-AF1F-CCA5F50E04F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460CE660-CECF-428F-AF1F-CCA5F50E04F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460CE660-CECF-428F-AF1F-CCA5F50E04F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBC2C1FC-1C49-4372-8DC9-39C4B2DA84CF}
+	EndGlobalSection
+EndGlobal
