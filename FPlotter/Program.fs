@@ -4,6 +4,7 @@ open PPlot
 
 let inline vector x y z = Vector.vector x y z
 
+let size = vector 1700 800 0
 
 let l1() =
    // main line
@@ -26,8 +27,6 @@ let l1() =
    // perpendicular
    let cd = build (func c (Math.project a b c)) 1
 
-   let size =  vector 700 400 0
-    
    [
         Plot.Build.line ab
         Plot.Build.segment cd
@@ -79,6 +78,7 @@ let l2() =
     ]
     |> List.choose id
     |> Plot.build
+    |> Plot.withSize size
 
 
 
@@ -92,8 +92,6 @@ let l3() =
     let build f count = 
         [for t in 0. .. 1./(float count) .. 1. -> f t]
 
-    let size =  vector 700 400 0
-    
     [
         let points =
             [
@@ -292,6 +290,7 @@ let l4() =
     @ (bezierCurves |> List.map Plot.Build.spline3D)
     |> List.choose id
     |> Plot.build
+    |> Plot.withSize size
 
 [
     l1()
